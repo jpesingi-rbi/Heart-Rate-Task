@@ -1,0 +1,21 @@
+Heart Rate Assignment
+
+For a clinical trial, it is required to calculate some statistics for patients' heart rate data. 
+The input “heartrate.json” file contains heart rate measurements collected by a patient over several days. 
+Each measurement consists of beats per minute and timestamps when the measurement was taken (start and end timestamps). 
+Using JavaScript/TypeScript write an aggregator script that reads the input “heartrate.json” file and 
+calculates the minimum, maximum and median beats per minute and the latest data timestamp (timestamp of the last measurement in the day) for each day. 
+Output should look like this
+[
+   {
+     "date": "2023-04-28”,
+     "min": 60,
+     "max": 119,
+     "median": 81,
+     "latestDataTimestamp": "2023-04-28T21:54:00"
+   },
+  …..
+]
+The output needs to be written to a file “output.json”. 
+Upload the project including input and created output files to your GitHub and provide the link. Also include a README file with instructions on how to build and run your project.
+

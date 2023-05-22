@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21",
+    "typescript": "^5.0.4"
+  },
+  "name": "heart-rate",
+  "version": "1.0.0",
+  "description": "calculate patient statistcs",
+  "main": "heart-rate-aggregator.js",
+  "scripts": {
+    "test": "node *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "node"
+  ],
+  "author": "Jyothi",
+  "license": "ISC"
+}
